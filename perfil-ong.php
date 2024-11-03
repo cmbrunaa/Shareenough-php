@@ -16,7 +16,7 @@ $data_cadastro = isset($_SESSION['data_cadastro']) ? $_SESSION['data_cadastro'] 
 
 try {
     // Conexão com o banco de dados
-    $conn = new PDO('mysql:host=localhost;dbname=shareenoughv2', 'root', '');
+    $conn = new PDO('mysql:host=localhost;dbname=shareenoughv2', 'root', getenv("MYSQL_PASS"));
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Busca a imagem da ONG

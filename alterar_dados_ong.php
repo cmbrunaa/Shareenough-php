@@ -8,7 +8,7 @@ if (!isset($_SESSION['email']) || $_SESSION['tipo_usuario'] !== 'ONG') {
 }
 
 // Conexão com o banco de dados
-$conn = new PDO('mysql:host=localhost;dbname=shareenoughv2', 'root', '');
+$conn = new PDO('mysql:host=localhost;dbname=shareenoughv2', 'root', getenv("MYSQL_PASS"));
 
 // Recupera o ID da ONG da sessão
 $id_ong = $_SESSION['id_ong'];

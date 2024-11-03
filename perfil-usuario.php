@@ -17,7 +17,7 @@ $telefone = isset($_SESSION['telefone']) ? $_SESSION['telefone'] : 'Telefone nã
 
 try {
     // Conexão com o banco de dados
-    $conn = new PDO('mysql:host=localhost;dbname=shareenoughv2', 'root', '');
+    $conn = new PDO('mysql:host=localhost;dbname=shareenoughv2', 'root', getenv("MYSQL_PASS"));
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Busca a imagem do usuário
