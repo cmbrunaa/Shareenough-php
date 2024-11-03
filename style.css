@@ -1,0 +1,4540 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 78px;
+    background-color: lightgreen;
+    box-sizing: border-box;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    border-bottom: 2px solid rgb(38, 122, 80);
+    padding: 0 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: fantasy;
+    opacity: 0.8;
+
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #36aa53;
+    opacity: 0.8;
+    /*coloca um tom opaco e transparente na lista do menu*/
+    box-shadow: 10px 10px black;
+}
+
+/*******PAGINA INICIAL****************/
+.slide-inteiro {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerdiv {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    background-color: green;
+    background-image: url('./img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudobannerdiv{
+    width:100%;
+    max-width: 600px;
+    height:500px;
+}
+
+.conteudobannerdiv h2{
+    padding: 0;
+    line-height: normal;
+    margin-left: 22px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.bannerdiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.bannerdiv p {
+    width:100%;
+    max-width: 100%;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 22px;
+    color: #209926;
+    line-height: 30px;
+}
+
+#cadong {
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+.bannerdiv a {
+    margin-left: 22px;
+}
+
+.ad {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;    
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+}
+
+.barra1 {
+    position: absolute;
+    top: 200px;
+    left: 1250px;
+    width: 100%;
+    max-width: 20px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px black;
+}
+
+.barra2 {
+    position: absolute;
+    top: 140px;
+    left: 1300px;
+    width: 100%;
+    max-width: 20px;
+    height: 350px;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px black;
+}
+
+.barra3 {
+    position: absolute;
+    top: 50px;
+    left: 1350px;
+    width: 100%;
+    max-width: 20px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px black;
+}
+
+.barra4 {
+    position: absolute;
+    top: 25px;
+    left: 1400px;
+    width: 100%;
+    max-width: 20px;
+    height: 550px;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px black;
+}
+
+.conteudo-inicial {
+    position:relative;
+    top: 15px;
+    background-color: #2e896e59;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    max-width: 70%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.conteudo-inicial h2 {
+    color: #095a0d;
+    text-transform: uppercase;
+}
+
+.conteudo-inicial p {
+    color: #000000;
+    font-size: 18px;
+}
+
+.ads-content {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+}
+
+.ads-content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/**************RODAPE********************/
+.rodape {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #39b339;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.rodapebox {
+    width: 100%;
+    height: auto;
+    background-color: #4b974b;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    
+}
+
+.caixasrodape {
+    width: 33.3%;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    flex-shrink: 0;
+   
+    
+
+}
+
+
+.caixasrodape h1 {
+    color: white;
+    align-items: center;
+    font-size: 400;
+}
+
+.caixasrodape p {
+    color: #000000;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.caixasrodape a {
+    color: #333333;
+}
+
+.caixasrodape ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.caixasrodape ul li {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.caixasrodape img {
+    width: 30px;
+    /* tamanho dos ícones */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-right: 10px;
+    /* Margem entre os ícones */
+}
+
+/* Alinha os ícones das redes sociais em linha */
+.caixasrodape img {
+    display: inline-block;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contato-item img {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.contato-item a {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.direitoscopyright {
+    text-align: center;
+}
+
+/* PAGINA SOBRE */
+
+/* -----------------------PAGINA QUEM SOMOS---------------------- */
+
+.boxprincipal {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.caixasobre {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #cecece;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixasobre h1 {
+    color: #095a0d;
+    font-family:fantasy;
+}
+
+.caixasobre div {
+    width: 50%;
+}
+
+.caixasobre .description {
+    padding: 2px;
+    font-size: 12px;
+}
+
+.caixasobre .banner-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caixasobre p {
+    text-indent: 20px;
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity:0.9;
+}
+
+.storysobre {
+    height: 450px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+
+.storysobre p {
+    text-indent: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+
+.caixacomofunciona3 {
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid grey;
+}
+
+.caixacomofunciona3 p {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.botaoongs {
+    position: absolute;
+    top: 385px;
+    right: 375px;
+    background-color: #209926;
+
+}
+
+.botaoongs:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+}
+
+
+.caixasobreusuario4 {
+    position: absolute;
+    top: 1350px;
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.cadastropagesobre {
+    position: relative;
+    top: 10px;
+    left: 300px;
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    display: flex;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+
+
+}
+
+.botaocadastropagesobre {
+    margin-left: 80px;
+    display: flex;
+    background-color: #209926;
+
+
+}
+
+.botaologinpagesobre {
+    background-color: #209926;
+    border: 1px solid #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cadastropagesobre h4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botaocadastropagesobre:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+}
+
+.botaologinpagesobre:hover {
+    box-shadow: 2px 2px #095a0d;
+}
+/*----------------------------------faq page-----------------------------*/
+
+.faqheader{
+    background-color: rgb(0, 248, 103);
+}
+
+.navfaq{
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: baseline;
+}
+.faqsessaoprincipal{
+    position: relative;
+    top:0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.faqsessao1{
+    position: relative;
+    top:0px;
+    margin: auto;
+    padding: 0;
+}
+.faqsessao1 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.accordion-header {
+    background-color: #e9ecef;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: #495057;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+.accordion-body {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+}
+
+/*-----------------------------------------------------Página das ongs--------------------------------------------*/
+
+.ongsbox {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.textong {
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 4pt;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(38, 123, 61); 
+    margin-bottom: 35px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+.textong h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.ong0 {
+    width: 80%;
+    background-color: #cecece;    
+    background: linear-gradient(to right, #cecece 90%, #ffffff 10%);
+    padding: 0 10px 30px 10px;
+}
+
+.ong-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.ong1 {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    border: 2px solid darkgreen;
+    box-shadow: 10px 10px black;
+}
+
+.ong1 img {
+    width: 100%;
+    height: 350px;
+}
+
+.description-ong p{
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+.ong-description p{
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+/*botões ongs*/
+
+.botaoong1 {
+    margin-top: 22px;
+    background-color: #209926;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.botaoong1:hover {    
+    opacity:0.8;
+    box-shadow: 5px 5px black;
+
+}
+
+.botaoong2 {
+    position: absolute;
+    top: 500px;
+    left: 634px;
+    background-color: #209926;
+    text-align: center;
+
+}
+
+.botaoong2:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+
+}
+
+.botaoong3 {
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+    background-color: #209926;
+    text-align: center;
+
+}
+
+.botaoong3:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+
+}
+
+.botaoong4 {
+    position: absolute;
+    top: 1040px;
+    left: 234px;
+    background-color: #209926;
+    text-align: center;
+
+}
+
+.botaoong4:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+
+}
+
+.botaoong5 {
+    position: absolute;
+    top: 1040px;
+    left: 634px;
+    background-color: #209926;
+    text-align: center;
+
+}
+
+.botaoong5:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+
+}
+
+.botaoong6 {
+    position: absolute;
+    top: 1040px;
+    left: 1050px;
+    background-color: #209926;
+    text-align: center;
+
+}
+
+.botaoong6:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+
+}
+
+/*----------------------ong1 page--------------------------------------------*/
+.main {
+    padding: 40px;
+}
+
+.ong-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cecece;
+    width: 70%;
+    height: 300px;
+    border: 1px solid #a7a7a7;
+}
+
+.ong-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #a7a7a7;    
+    width: 70%;
+}
+
+.ong-description .logo-ads {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ong-description .logo-ads img {
+    width: 200px;
+    margin: 12px;
+    max-height: 200px;
+}
+
+.logo-ong {
+    width: 33%;
+    height: auto;
+    
+}
+
+.logo-ong img {
+    width: 100%;
+    max-height: 300px;
+    height: 300px;
+}
+
+.ong-header .description-ong {
+    width: 66%;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.logoinfo {
+    width: 100%;
+    max-width: 300px;
+    height: 1778px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px black;
+
+}
+
+.bannerong1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+
+}
+
+.bannerong1 img {
+    width: 100%;
+}
+
+
+
+.infosong1 {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 1000px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.conteudospicsads {
+    width: 100%;
+    max-width: 900px;
+    height: 1500px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px black;
+}
+
+.ads1ong {
+    width: 100%;
+    max-width: 250px;
+    left: 600px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+
+}
+
+.ads1ong img {
+    width: 100%;
+    height: 100%;
+}
+
+.ads2ong {
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    max-width: 250px;
+    left: 600px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.ads2ong img {
+    width: 100%;
+    height: 100%;
+}
+
+.ads3ong {
+    position: absolute;
+    top: 620px;
+    width: 100%;
+    max-width: 250px;
+    left: 600px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.ads3ong img {
+    width: 100%;
+    height: 100%;
+}
+
+.ads4ong {
+    position: absolute;
+    top: 920px;
+    width: 100%;
+    max-width: 250px;
+    left: 600px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.ads4ong img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+/****-----------------------------------PAGINA DE LOGIN----------------------------*******/
+
+.html-login, .body-login {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.boxlogin {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    height:400px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form h2 {
+    color: #5d815f;
+}
+
+.login-form input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.botaologin {
+    width:100px;
+    height:50px;
+    margin: auto;
+    display: inline-block;
+    background-color: #209926;
+    text-align: center;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.showpassword{
+    background-color: #0fa416;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botaologin:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #209926;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+/*********PAGINA DE CADASTRO------------------------------------------******************/
+.cadastro3d {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    max-width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.cadastro3d p{
+    color: #275229;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastro3d h6{
+    font-size: 10pt;
+    padding: 0;
+}
+
+.senharules {
+    font-size: 10pt;
+}
+
+#password{
+    margin-bottom: 0;
+}
+
+.cad-form {
+    text-align: center;
+}
+
+.cad-form h2 {
+    color: #89ac8b;
+}
+
+.formstyle {
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: #000000;
+    background-color:#cfedd6;
+    border-radius: 5px;
+}
+
+.botaocad {
+    margin: auto;
+    display: flex;
+    background-color: #209926;
+    text-align: center;
+}
+
+.botaocad {
+    background-color: #209926;
+    text-align: center;
+
+}
+
+.botaocad:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px black;
+}
+
+.cad-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #275229;
+}
+
+.cad-link a {
+    color: #209926;
+    text-decoration: none;
+}
+
+.cad-link a:hover {
+    text-decoration: underline;
+}
+
+.file-label-cad{
+    background-color: #55c755;
+    color: white;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+/*-------------------------------------anúncios page 1--------------*/
+
+
+
+.ads1 {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads2 {
+    position: absolute;
+    top: 240px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads3 {
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads4 {
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads5 {
+    position: absolute;
+    top: 920px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+
+}
+
+.ads6 {
+    position: absolute;
+    top: 1140px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads7 {
+    position: absolute;
+    top: 1380px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads8 {
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.ads9 {
+    position: absolute;
+    top: 1820px;
+    left: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment1 {
+    position: absolute;
+    top: 20px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment2 {
+    position: absolute;
+    top: 240px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment3 {
+    position: absolute;
+    top: 480px;
+    left: 370px;
+    ;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment4 {
+    position: absolute;
+    top: 700px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment5 {
+    position: absolute;
+    top: 920px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment5 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment6 {
+    position: absolute;
+    top: 1140px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment6 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment7 {
+    position: absolute;
+    top: 1380px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment7 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment8 {
+    position: absolute;
+    top: 1600px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment8 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.comment9 {
+    position: absolute;
+    top: 1820px;
+    left: 370px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    background-color: #ffffff;
+}
+
+.comment9 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.botaoproxanterior {
+    display: inline-block;
+    position: absolute;
+    top: 2080px;
+    left: 900px;
+    box-sizing: border-box;
+    background-color: rgb(98, 201, 98);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botaoproxanterior h5 {
+    color: black;
+    font-size: 15px;
+}
+
+.botaoproxanterior:hover {
+    opacity: 0.8;
+
+}
+
+.doar1 {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #0d0d0d;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.715);
+    cursor: pointer;
+}
+
+.doar1:hover{
+    opacity: 0.9;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar2 {
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar2:hover{
+    opacity: 0.9;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar3 {
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar3:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar4 {
+    position: absolute;
+    top: 750px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar4:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar5 {
+    position: absolute;
+    top: 1000px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar5:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar6 {
+    position: absolute;
+    top: 1200px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar6:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar7 {
+    position: absolute;
+    top: 1450px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar7:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar8 {
+    position: absolute;
+    top: 1680px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar8:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+.doar9 {
+    position: absolute;
+    top: 1900px;
+    left: 900px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(98, 201, 98);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.doar9:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(4, 55, 4);
+    color:black;
+    transform: scale(1.1);
+}
+
+/*-------------------------------------PAGINA DE ANUNCIOS V2--------------*/
+
+.anunciosmain {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+    width: 100%;
+    max-width: 1100px;
+    height: 2200px;
+    box-sizing: border-box;
+    /*box-shadow: 10px 10px rgba(34, 33, 33, 0.508);*/
+    border:none;
+    border-radius: 20px;
+    background-color:#1ae85f74;
+}
+.anuncio-imagem {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    height: 300px;
+    
+}
+.anuncio {
+    background-color:#ffffff;
+    margin: 20px;
+    padding: 15px;
+    border:none;
+    border-color: #75e08a55;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+}
+
+.anuncio h4 {
+    color: #317634;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.anuncio p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.boxpost-text{
+    background-color:#1ae85f74;
+    margin: 0;
+    width: 98%;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #dcecca;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.33);
+}
+
+/*--------------------- ALTERAR ONG PART--------------------------------*/
+
+.btn-alterar-ads {
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 5px 0;
+        border-radius: 8px; /* Arredonda as bordas */
+        text-decoration: none;
+        color: white; /* Cor do texto */
+        background-color:#0fa416;
+
+    }
+
+    .btn-alterar-ads:hover{
+        opacity: 0.8;
+        box-shadow: 10px 10px rgba(54, 52, 52, 0.523);
+    }
+
+    .btn-excluir-ads{
+        display: inline-block;
+        padding: 10px 30px;
+        margin: 5px 0;
+        border-radius: 8px; /* Arredonda as bordas */
+        text-decoration: none;
+        color: white; /* Cor do texto */
+        background-color:#0fa416;
+    }
+
+    .btn-excluir-ads:hover{
+        opacity: 0.8;
+        box-shadow: 10px 10px rgba(54, 52, 52, 0.523);
+    }
+
+    .btn-alterar {
+        background-color: #f8f348; /* Cor de fundo do botão Alterar */
+        color: black; /* Cor do texto do botão Alterar */
+    }
+
+    /*------------------------ALTERAR ANÚNCIO PAGE------------------------------*/
+
+    .ongpost-alterar{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        width: 820px;
+        height: 630px;
+        background-color: white;
+        border: 2px solid  rgb(38, 122, 80);
+        box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        color: #317634;
+    }
+
+    #boxpost{
+        width:600px;
+        height: 200px;
+        text-align: center;
+        border-radius: 10px;
+        resize: none;
+        outline: none;
+        box-sizing: border-box;
+        overflow-y: auto;
+        border-color: #4caf50;
+    }
+
+    #telefone{
+        margin-top: 20px;
+        width: 510px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:#cfedd6;
+    }
+
+    #endereco{
+        margin-top: 20px;
+        width: 510px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:#cfedd6;
+    }
+
+    #numero{
+        margin-top: 20px;
+        width: 250px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:#cfedd6;
+    }
+
+    #categoria{
+        margin-top: 20px;
+        width: 250px;
+        background-color:#cfedd6;
+        border-radius: 5px;
+    }
+
+    .btn-alterar-ads{
+        background-color: #1bae1d;
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 150px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 0;
+        font-size: 16px;
+        text-align: center;
+        place-content: center;
+        border-radius: 5px;
+        transition: background-color 0.5s;
+    }
+
+    /*----------------------------Excluir ads----------------------------*/
+    .btn-excluir-ads{
+        background-color: #f44336;
+        width: 140px;
+    }
+
+    .ongpost-excluir{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        width: 620px;
+        height: 430px;
+        background-color: white;
+        border: 2px solid  rgb(38, 122, 80);
+        box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        color: #317634;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .ongpost-excluir h1{
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    .btnongdoavoltar-altads{
+        width: 150px;
+        background-color: #f44336;
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .exc-confirm{
+        background-color: #f44336;
+        margin-top: 10px;
+        padding: 10px 30px;
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .exc-confirm:hover{
+        opacity: 0.8;
+        box-shadow: 10px 10px rgba(54, 52, 52, 0.523);
+        background-color: red;
+    }
+
+    .cancelar-exc{
+        margin-top: 20px;
+        background-color: #1bae1d;
+        padding: 20px 43px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .cancelar-exc:hover{
+        opacity: 0.8;
+        box-shadow: 10px 10px rgba(54, 52, 52, 0.523);
+    }
+
+    .btnongdoavoltar-altads:hover{
+        opacity: 0.8;
+        background-color: red;
+    }
+
+    /*-------------------ALTERAR DADOS ONG --------------------*/
+
+    .alterar-dados {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+        align-items: center;
+    }
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .btn-salvar {
+        background-color: green;
+        color: white;
+        margin-left: 50px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+        
+    }
+    button:hover {
+        background-color: darkgreen;
+        box-shadow: 10px 10px rgba(54, 52, 52, 0.523);
+    }
+
+    #btnvoltaralterar{
+        padding: 10px;
+        margin-left: 120px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+   
+
+
+
+/*---------------------DOA CONFIRM----------------------------*/
+.doaconfirmmain{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+
+}
+
+.doaconfirmdiv{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width:100%;
+    max-width:800px;
+    height:400px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.doaconfirmdiv h1{
+    padding: 30px;
+}
+
+.doaconfirmdiv p{
+    padding: 40px;
+}
+
+.btn-doaconfirm{
+    width:400px;
+    margin: 8px;
+    padding: 25px 100px;
+    background-color: #209926;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.btn-doaconfirm:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.453);
+}
+/*-----------------------------Página de doação----------------------------------*/
+
+.mainboxend {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 100%;
+    max-width: 1050px;
+    height: 750px;
+    border: 2px solid black;
+    background-color: #a1fca4;
+    box-sizing: border-box;
+    box-shadow: 10px 10px black;
+
+}
+
+.pronto {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    max-width: 850px;
+    height: 500px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.pronto h1 {
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+}
+
+.pronto h6 {
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+.pronto p {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.btn {
+    padding: 10px;
+    background-color: #209926;
+    border-radius: 8px;
+    width:100px;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px #095a0d;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*------------------------------ PAGE SUCESSO DOACAO ----------------------------------*/
+.sucesso-doacao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sucesso-doacao h1{
+    padding: 40px;
+}
+
+.btn-sucesso{
+    width:400px;
+    margin: 38px;
+    padding: 25px 100px;
+    background-color: #209926;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-sucesso:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px  #095a0d;
+}
+
+/*------------------------------ USUARIO PROFILE PAGE ----------------------------------*/
+
+.logout:hover {
+    opacity: 0.8;
+    background-color: red;
+    color: white;
+}
+
+.containerprofile {
+    position:relative;
+    top:20px;
+    left:130px;
+    width:100%;
+    max-width:250px;
+    height:255px;
+    background-color: #fdfdfd;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+}
+
+.imgprofile{
+    width: 100%;
+    height: 100%;
+}
+
+.containerprofile img{
+    width:100%;
+    box-sizing: border-box;
+}
+
+.infoaccount {
+    position: relative;
+    top: -180px;
+    left:400px;
+    width:100%;
+    max-width:800px;
+    height:670px;
+    background-color: #dbf6f1;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.342);
+    border: 2px solid grey;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+.doacao-back {
+    position:absolute;
+    top:555px;
+    background-color: #f44336;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.doacao-back:hover {
+    background-color: #b42d2b;
+    cursor: pointer;
+}
+
+.userdate{
+    position:relative;
+    top:35px;
+    left: 150px;
+    width:100%;
+    max-width:220px;
+    height: 80px;
+    background-color:white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.accnome{
+    position: absolute;
+    top:20px;
+    left:20px;
+    background-color: white;
+    width:100%;
+    max-width:300px;
+    height:100px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    box-sizing: border-box;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.accemail{
+    position: absolute;
+    top:140px;
+    left:20px;
+    background-color: white;
+    width:100%;
+    max-width:300px;
+    height:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid;
+    box-sizing: border-box;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+}
+
+.acctel{
+    position: absolute;
+    top:260px;
+    left:20px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    max-width:300px;
+    height:100px;
+    text-align: center;
+    border: 2px solid;
+    box-sizing: border-box;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+}
+
+.doacaohistorico {
+    position:absolute;
+    top: 5px;
+    right:15px;
+    width:100%;
+    max-width:400px;
+    height:650px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.342);
+    font-family:fantasy;
+}
+
+.doacaohistorico h4{
+    text-align: center;
+    color:#f2392c
+}
+
+.doacaohistorico h5{
+    margin-left:60px;
+    color:#000f17
+}
+
+.doacaopassada {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    max-width: 300px;
+    width:100%;
+    height:200px;
+    background-color: #28a745;
+}
+
+.doacaopassada2 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    max-width: 300px;
+    width:100%;
+    height:200px;
+    background-color: #28a745;
+}
+
+.doacaopassada img{
+    width:100%;
+    height:200px;
+}
+
+.doacaopassada2 img{
+    width:100%;
+    height:200px;
+}
+
+
+.btn-alterar {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: blue; /* Altere a cor conforme necessário */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-alterar:hover {
+    background-color: darkblue; /* Altere a cor ao passar o mouse */
+}
+
+
+/***-------------------------------------ONG PROFILE PAGE ---------------------------------------***/
+
+
+.ongprofilemain{
+    position: relative;
+    top: 3px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.ongpostprofilepic2{
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.ongprofileinfos{
+    position:absolute;
+    top: 150px;
+    left: 400px;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 655px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ongprofilecaddata{
+    position:absolute;
+    top: 420px;
+    left: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+}
+
+.ongprofilecaddata h4{
+    margin: 30px;
+}
+
+.profileinfo1{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    height: 80px;
+    background-color: #99db9c;
+    border-radius: 10px;
+}
+
+.botao-alterar {
+    display: inline-block;
+    background-color: #28a745; /* Verde */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 18px; /* Espaçamento acima do botão */
+}
+
+.botao-alterar:hover {
+    background-color: #218838; 
+    box-shadow: 10px 10px rgba(54, 52, 52, 0.523);
+}
+
+.upload-imagem {
+    margin-top: 15px;
+}
+/***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+
+.ongpostmainsec{
+    width:100%;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ongpostmain{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -100%);
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: #317634;
+}
+
+#ongposttext{
+    width:400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-color: #4caf50;
+}
+
+#ongposttel{
+    width: 310px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+#ongpostendereco{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+#ongpostnumero{
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+#btn_rp_ali{
+    width: 25px;
+    background-color:#cfedd6;
+    border-color: #4caf50;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.file-label {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 100px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.file-label:hover {
+    background-color: #45a049;
+}
+
+#ongpostfile{
+    display: none;
+}
+
+.ongpostprofilepic{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+.publicar{
+    background-color: #1bae1d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 17%;
+    padding: 10px;
+    margin-left: 0;
+    font-size: 16px;
+    text-align: center;
+    place-content: center;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.publicar:hover {
+    opacity: 1;
+    background-color: #55bb5a;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.453);
+}
+
+.btnongdoavoltar{
+    background-color: #f44336;
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnongdoavoltar:hover{
+    opacity: 1;
+    background-color: #f45347;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.453);
+}
+
+/***--------------------------------Formulario ROUPAS-------------------***/
+.doacao-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doacao-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -40%);
+    max-width: 1000px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    padding: 25px;
+    color:  #209926;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #317634;
+}
+
+.doacao-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.doacao-input, .doacao-submit, .doacao-back {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.doacao-submit {
+    background-color: #1bae1d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 17%;
+    padding: 20px 60px;
+    margin-left: 35%;
+    font-size: 16px;
+    text-align: center;
+    place-content: center;
+}
+
+.doacao-submit:hover {
+    opacity: 0.9;
+    background-color: #55bb5a;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.453);
+}
+
+.doacao-back {
+    background-color: #f44336;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.doacao-back:hover {
+    background-color: #b42d2b;
+}
+
+/*****************DOAÇÂO FINALIADA*****************/
+.card {
+    border-radius: 10px;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border: 2px solid #000000;
+}
+
+.alert {
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.btn-success-end {
+    width: 150px;
+    padding: 20px;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 10px;
+}
+
+.btn-success-end:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    box-shadow: 5px 5px black;
+}
+
+
+.btn-success-end2{
+    width: 150px;
+    padding: 20px;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 10px;
+}
+
+.btn-success-end2:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    box-shadow: 5px 5px black;
+}
+
+/*---------------------  GRANDE MEDIA QUERY EXTRA-----------------------*/
+@media only screen and (min-width:1201px) and (max-width:2000px) {
+.ongpostmain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 720px;
+    height: 650px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: #317634;
+}
+.ongpostprofilepic{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 100%;
+    max-width: 250px;
+    height: 280px;
+    box-sizing: border-box;
+
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+#ongpostnumero{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+.doacaohistorico {
+    position: absolute;
+    top:1%;
+    left:45%;
+    text-align: center;
+}
+
+/*-------------------------------------------PAGINA DE LOGIN -------------------------------*/
+.boxlogin {
+    position: relative;
+    top: 250px;
+    left: 50%;
+    max-width: 600px;
+    height:400px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/***---------------------------------ONG PROFILE ---------------------------PAGE***/
+.ongprofilemain{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.ongprofileinfos{
+    position:absolute;
+    top: 10%;
+    left: 35%;
+    width: 100%;
+    max-width:  760px;
+    height: 100%;
+    max-height: 700px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+}
+
+/*---------------------MEDIA QUERY EXTRA-----------------------*/
+
+@media only screen and (min-width:1001px) and (max-width:1200px) {
+
+    header {
+        width: 100%;
+        height: 78px;
+        background-color: lightgreen;
+        box-sizing: border-box;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+        align-items: center;
+        border-bottom: 2px solid rgb(38, 122, 80);
+        padding: 0 20px;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: fantasy;
+        opacity: 0.8;
+    
+    }
+    
+    .logo {
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+    }
+    
+    .logo img {
+        width: 250px;
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-list li {
+        letter-spacing: 3px;
+        margin-left: 30px;
+    }
+    
+    nav ul li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    /*-----------------------------------PAGINA INICIAL---------------------------------*/
+
+    .conteudobannerdiv p{
+        font-size: 20px;
+        }
+
+        .bannerdiv p {
+            font-size: 18px;
+            max-width: 220px;
+            }
+    
+    .bannerdiv p {
+        max-width: 800px;
+        }
+
+       
+        /*********PAGINA DE CADASTRO------------------------------------------******************/
+
+
+      /***---------------------------------ONG PROFILE ---------------------------PAGE***/
+ .ongprofilemain{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.ongprofileinfos{
+    position:absolute;
+    top: 10%;
+    left: 42%;
+    width: 100%;
+    max-width:  560px;
+    height: 100%;
+    max-height: 700px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+        /***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+        .ongpostmain{
+            position: absolute;
+            top: 150%;
+            left: 50%;
+            transform: translate(-32%, -100%);
+            width: 720px;
+            height: 650px;
+            background-color: white;
+            border: 2px solid  rgb(38, 122, 80);
+            box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+            border-radius: 10px;
+            text-align: center;
+            align-items: center;
+            color: #317634;
+        }
+        .ongpostprofilepic{
+            position: absolute;
+            top: 20%;
+            left: 0%;
+            width: 100%;
+            max-width: 250px;
+            height: 280px;
+            box-sizing: border-box;
+      
+            border: 1px solid #095a0d;
+            border-radius: 10px;
+            box-shadow: 5px solid black;
+        }
+        
+        #ongpostnumero{
+            width: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color:#cfedd6;
+        }
+
+    /*---------------------------/////////pagina das ongs individuais---------------------//////-------*/
+
+.container{
+    position: relative;
+    top:15px;
+    width:100%;
+}
+
+.textong h2{
+    padding:0px;
+    margin:0px;
+    text-align: center;
+}
+
+.ong-header{
+    width:100%;
+}
+
+.description-ong{
+    width: 100%;
+}
+
+.description-ong h1{
+    width: 100%;
+}
+
+.description-ong p{
+    font-size: 15px;
+}
+
+.ong-description{
+    width: 100%;
+}
+
+.textong{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top:5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+
+/*-------------------------------------------------------PAGINA DO FAQ--------------------------------------------------------------*/
+
+.faqsessao1{
+    position: relative;
+    top:25px;
+}
+
+
+/*-------------------------------------------PAGINA DE LOGIN -------------------------------*/
+.boxlogin {
+    position: relative;
+    top: 250px;
+    left: 50%;
+    max-width: 600px;
+    height:400px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------------------------------/////////FOOTER/////------------*/
+.rodape {
+    width:100%;
+    
+}
+
+#rodapeuser{
+    position: absolute;
+    top: auto;
+}
+
+/*----------------------------------PAGINA PROFILE----------------------------*/
+
+.containerprofile {
+    position: relative;
+    left:20px;
+}
+
+.userdate{
+    position: relative;
+    left:20px;
+}
+
+.infoaccount{
+    position: relative;
+    top: 20%;
+    left:30%;
+    width: 600px;
+    height:950px;
+}
+
+.barra {
+    width:100%;
+    max-width: 600px;
+}
+
+.doacaohistorico {
+    position: absolute;
+    top:46%;
+    left:20px;
+    text-align: center;
+}
+
+.doacaopassada h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+/*-----------------------------------PAGINA DE ANUNCIOS 1  E 2---------------------------------*/
+
+
+    /*-----------------------------------PAGINA DE FORMULARIO--------------------------------------------*/
+
+.doacao-container{
+    width:100%;
+    max-width:80%;
+    left:0px;
+    transform: translateX(8%);
+}
+
+.doacao-submit {
+    position:relative;
+    top:0px;
+    left:50%;
+    width:15%;
+    height:38px;
+    text-align: center;
+}
+
+.doacao-back{
+    top:478px;
+    left:25%;
+    width:15%;
+    height:38px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+}
+
+/*------------------------------------------SEGUNDO MEDIA QUERY ---------------------------------------------*/
+
+
+@media only screen and (min-width:901px) and (max-width:1000px) { 
+    .ongpostmain{
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-30%, -100%);
+        width: 620px;
+        height: 650px;
+        background-color: white;
+        border: 2px solid  rgb(38, 122, 80);
+        box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        color: #317634;
+    }
+    .ongpostprofilepic{
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        max-width: 250px;
+        height: 300px;
+        box-sizing: border-box;
+
+        border: 1px solid #095a0d;
+        border-radius: 10px;
+        box-shadow: 5px solid black;
+    }
+    
+    #ongpostnumero{
+        margin-top: 20px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:#cfedd6;
+    }
+
+    .ongsbox {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        max-width: 1100px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0;
+    }
+
+    .textong{
+        border-radius: 20px;
+        padding: 10px;
+        margin-top:5px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20%;
+    }
+
+    .textong h2{
+       margin-top: 0px;
+    }
+
+    
+/*-------------------------------------------PAGINA DE LOGIN -------------------------------*/
+.boxlogin {
+    position: relative;
+    top: 250px;
+    max-width: 600px;
+    height:400px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ /***---------------------------------ONG PROFILE ---------------------------PAGE***/
+ .ongprofilemain{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.ongprofileinfos{
+    position:absolute;
+    top: 10%;
+    left: 42%;
+    width: 100%;
+    max-width:  450px;
+    height: 700px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/*----------------------------------PAGINA PROFILE----------------------------*/
+
+.containerprofile {
+    position: relative;
+    top: 30px;
+    left:20px;
+}
+
+.userdate{
+    position: relative;
+    left:20px;
+}
+
+.infoaccount{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-25%, -23%);
+    width: 100%;
+    max-width: 600px;
+    height:1250px;
+}
+
+.barra {
+    width:100%;
+    max-width: 600px;
+}
+
+.doacaohistorico {
+    position: absolute;
+    top:35%;
+    left:20px;
+    text-align: center;
+}
+
+.doacaopassada h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+}
+
+/*--------------//////---------------TERCEIRO MEDIA QUERY-------------////////*/
+
+@media only screen and (min-width:601px) and (max-width:900px){
+
+    header {
+        width:100%;
+        height:266px;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        height:285px;
+        top: 0;
+        left: 0;
+    }
+
+    .nav-list { 
+        width:100%;
+        margin-top: -5px;
+        flex-direction: column;
+    }
+
+    /*-----------------------------------PAGINA INICIAL---------------------------------*/
+
+    .conteudobannerdiv h2{
+        margin-top: 30px;
+        font-size:18px;
+    }
+
+    .bannerdiv p {
+        font-size: 18px;
+        max-width: 320px;
+        }
+
+    .ad {
+        flex-direction: column;
+    }
+
+    /*------------------------- QUEM SOMOS --------------------------*/
+
+    .boxprincipal {
+        position: relative;
+        width: 100%;
+        max-width:99.9%;
+        
+    }
+    
+    .caixasobre {
+        width: 100%;
+        max-width: 880px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .caixasobre div{
+        width: 100%;
+        max-width: 880px;
+    }
+    
+    .description p{
+        font-size: 15px;
+    }
+
+    /*---------------------------/////////pagina das ongs---------------------//////-------*/
+
+.container{
+    width:100%;
+
+}
+
+.ong-header{
+    width:100%;
+}
+
+.description-ong{
+    width: 100%;
+}
+
+.description-ong h1{
+    width: 100%;
+}
+
+.description-ong p{
+    font-size: 15px;
+}
+
+.ong-description{
+    width: 100%;
+}
+
+ /***---------------------------------ONG PROFILE ---------------------------PAGE***/
+ .ongprofilemain{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.ongpostprofilepic2{
+    position: absolute;
+    top: 2%;
+    left: 26%;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.ongprofileinfos{
+    position:absolute;
+    top: 55%;
+    left: 20%;
+    width: 450px;
+    height: 735px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ongprofilecaddata{
+    position:absolute;
+    top: 40%;
+    left: 30%;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+}
+
+.contato-item{
+    font-size: 8px;
+}
+
+#rodapeongprofile{
+    position: absolute;
+    top: 1600px;
+}
+
+
+/***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+.ongpostmain{
+    position: relative;
+    top: 130%;
+    left: 50%;
+    transform: translate(-48%, -100%);
+    width: 100%;
+    max-width: 550px;
+    height: 650px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: #317634;
+}
+.ongpostprofilepic{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+#ongpostnumero{
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+/*-------------------------------------------------------PAGINA DO FAQ--------------------------------------------------------------*/
+
+.faqsessao1{
+    position: relative;
+    top:25px;
+}
+
+/*-----------------------------------PAGINA DE LOGIN---------------------------------*/
+
+.boxlogin {
+    position: relative;
+    top: 250px;
+    max-width: 600px;
+    height:400px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*-----------------------------------PAGINA DE CADASTRO----------------------------------------*/
+
+.cadastro3d {
+    position: relative;
+    top:50px;
+    width:100%;
+    max-width:90%;
+}
+
+/*----------------------------------PAGINA PROFILE----------------------------*/
+
+.containerprofile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    max-height: 360px;
+}
+
+.userdate{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 550%);
+}
+
+.infoaccount{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 45%);
+    width: 100%;
+    max-width:500px;
+    height:1150px;
+    
+}
+
+.accnome{
+    position: relative;
+    left: 20%;
+}
+
+.accemail{
+    position: absolute;
+    left: 20%;
+}
+
+.acctel{
+    position: absolute;
+    left: 20%;
+}
+
+.barra {
+    width:100%;
+    max-width: 600px;
+}
+
+.doacaohistorico {
+    position: relative;
+    top:360px;
+    left:35px;
+    text-align: center;
+}
+
+.doacaopassada h5{
+    padding:0px;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.doacaopassada2 {
+    position:relative;
+    top:240px;
+    width:80%;
+    max-width:80%;
+    height:40%;
+    
+}
+.doacaopassada2 img{
+    width:100%;
+    max-width:100%;
+    height:100%;
+}
+
+.doacaopassada2 h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:10px;
+    margin-top:0px;
+    
+}
+
+#rodapeuser{
+    position: absolute;
+    top: 2000px;
+}
+
+/***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+.anunciosmain {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    max-height: 2200px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(34, 33, 33, 0.508);
+    border: 1px solid rgba(42, 41, 41, 0.397);
+    border-radius: 20px;
+    background-color: #edf4f2;
+}
+
+.ongpostprofilepic{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, 20%);
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+/*-----------------------------------PAGINA DE FORMULARIO--------------------------------------------*/
+
+.doacao-container{
+    width:100%;
+    max-width:80%;
+    left:0px;
+    transform: translateX(5%);
+}
+
+.doacao-submit {
+    position:relative;
+    width:15%;
+    left:50%;
+}
+
+.doacao-back{
+    top:480px;
+    left:20%;
+    width:15%;
+    height:38px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+}
+
+/*-----------/////////---------QUARTO MEDIA QUERY --------------///////////////-------*/
+
+@media only screen and (min-width:501px) and (max-width:600px){
+    header {
+        width:100%;
+        height:266px;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        height: 285px;
+        top: 0;
+        left: 0;
+    }
+
+    .nav-list { 
+        width:100%;
+        margin-top: -5px;
+        flex-direction: column;
+    }
+
+      /*-----------------------------------PAGINA INICIAL---------------------------------*/
+
+      .conteudobannerdiv h2{
+        padding-top: 35px;
+        font-size: 16px;
+      }
+
+    .conteudobannerdiv p{
+        font-size: 16px;
+        }
+    
+    .bannerdiv p {
+        max-width: 250px;
+        }
+    .ad {
+    flex-direction: column;
+}
+
+/*--------------------------------------/////////FOOTER/////------------*/
+.rodape {
+    width:100%;
+    
+}
+
+.contato-item a {
+    font-size: 12px;
+   }
+
+   .caixasrodape p{
+    font-size: 12px;
+   }
+
+
+/*------------------------- QUEM SOMOS --------------------------*/
+
+.boxprincipal {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.caixasobre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixasobre div{
+    width: 100%;
+    max-width: 100%;
+}
+
+.description p{
+    font-size: 15px;
+}
+/****-----------------------------------PAGINA DE LOGIN----------------------------*******/
+
+.boxlogin {
+    position: relative;
+    top: 50px;
+    max-width: 50%;
+    height:400px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/***---------------------------------ONG PROFILE ---------------------------PAGE***/
+.ongprofilemain{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.ongpostprofilepic2{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.ongprofileinfos{
+    position:absolute;
+    top: 55%;
+    left: 8%;
+    width: 450px;
+    height: 735px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+    text-align: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ongprofilecaddata{
+    position:absolute;
+    top: 40%;
+    left: 25%;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    color: #317634;
+}
+
+.contato-item{
+    font-size: 6px;
+}
+
+#rodapeongprofile{
+    position: absolute;
+    top: 1600px;
+}
+
+/***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+.ongpostmain{
+    position: relative;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+    max-width: 500px;
+    height: 650px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: #317634;
+}
+.ongpostprofilepic{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+/***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+.ongpostmain{
+    position: relative;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+    max-width: 550px;
+    height: 650px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: #317634;
+}
+.ongpostprofilepic{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+ 
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+#ongpostnumero{
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+/***------------------------------ONG ADS----------------------------------***/
+.anunciosmain {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(0%, 5%);
+    width: 100%;
+    max-width: 800px;
+    max-height: auto;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(34, 33, 33, 0.508);
+    border: 1px solid rgba(42, 41, 41, 0.397);
+    border-radius: 20px;
+    background-color: #edf4f2;
+}
+
+/*---------------------------/////////pagina das ongs---------------------//////-------*/
+
+.container{
+    width:100%;
+
+}
+
+.ong-header{
+    width:100%;
+}
+
+.description-ong{
+    width: 100%;
+}
+
+.description-ong h1{
+    width: 100%;
+}
+
+.description-ong p{
+    font-size: 15px;
+}
+
+.ong-description{
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------PAGINA DO FAQ--------------------------------------------------------------*/
+
+.faqsessao1{
+    position: relative;
+    top:25px;
+}
+
+/*-----------------------------------PAGINA DE LOGIN---------------------------------*/
+
+.boxlogin{
+    position: relative;
+    left:0px;
+    transform: translateX(4%); 
+    width:100%;
+    max-width: 90%;
+    padding: 0px;
+    margin:0px;
+}
+
+/*-----------------------------------PAGINA DE CADASTRO----------------------------------------*/
+
+.cadastro3d {
+    position: relative;
+    top:50px;
+    width:100%;
+    max-width:90%;
+}
+
+    /*----------------------------------PAGINA PROFILE----------------------------*/
+
+.containerprofile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    max-height: 360px;
+}
+
+.userdate{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 550%);
+}
+
+.infoaccount{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 45%);
+    width: 100%;
+    max-width:500px;
+    height:1150px;
+    
+}
+
+.accnome{
+    position: relative;
+    left: 20%;
+}
+
+.accemail{
+    position: absolute;
+    left: 20%;
+}
+
+.acctel{
+    position: absolute;
+    left: 20%;
+}
+
+.barra {
+    width:100%;
+    max-width: 600px;
+}
+
+.doacaohistorico {
+    position: relative;
+    top:360px;
+    left:35px;
+    text-align: center;
+}
+
+.doacaopassada h5{
+    padding:0px;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.doacaopassada2 {
+    position:relative;
+    top:240px;
+    width:80%;
+    max-width:80%;
+    height:40%;
+    
+}
+.doacaopassada2 img{
+    width:100%;
+    max-width:100%;
+    height:100%;
+}
+
+.doacaopassada2 h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:10px;
+    margin-top:0px;
+    
+}
+
+#rodapeuser{
+    position: absolute;
+    top: 2000px;
+}
+
+
+/*-----------------------------------PAGINA DE ANUNCIOS 1  E 2---------------------------------*/
+
+.anunciosmain {
+    position: relative;
+    top:5px;
+    left:2px;
+    width:98%;
+    height:2000px;
+}
+
+.anunciosmain2 {
+    position: relative;
+    top:5px;
+    left:2px;
+    width:95%;
+}
+
+.botaoproxanterior{
+    position: absolute;
+    height:2%;
+    top:1980px;
+    left:400px;
+    text-align: center;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.botaoproxanterior h5{
+    margin: 0px;
+}
+
+
+/*-----------------------------------PAGINA DE FORMULARIO--------------------------------------------*/
+
+.doacao-container{
+    width:100%;
+    max-width:80%;
+    left:0px;
+    transform: translateX(5%);
+}
+
+.doacao-submit {
+    position:relative;
+    left:50%;
+}
+
+.doacao-back{
+    top:508px;
+    left:20%;
+    height:38px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+}
+
+
+/*-----------/////////---------QUINTO MEDIA QUERY --------------///////////////-------*/
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    header {
+       width:100%;
+       height:200px;
+   }
+   nav {
+       flex-direction: column;
+       justify-content: space-around;
+       position: relative;
+       top: 0;
+       left: 0;
+   }
+
+   .nav-list { 
+       width:100%;
+       flex-direction: column;
+       padding: 0px;
+   }
+
+   /*-----------------------------------PAGINA INICIAL---------------------------------*/
+
+   .conteudobannerdiv h2{
+    padding-top: 20px;
+    font-size: 15px;
+    }
+
+    .bannerdiv p {
+        font-size: 12px;
+        max-width: 200px;
+    }
+
+   .ad {
+       flex-direction: column;
+   }
+
+   .btn{
+    padding: 5px;
+   }
+
+   /*PAGINA INCIAL LOGADO-ONG*/
+   #conteudobannerdiv-ong h2{
+    padding-top: 50px;
+   }
+
+   #conteudobannerdiv-ong p{
+    max-width: 150px;
+   }
+
+   /*--------------------------------------/////////FOOTER/////------------*/
+   .rodape {
+       width:100%;
+       
+   }
+
+   .rodapebox {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+  
+
+   /*------------------------- QUEM SOMOS --------------------------*/
+
+
+.caixasobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixasobre div{
+    width: 100%;
+}
+
+/***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+
+
+
+/*---------------------------/////////pagina das ongs individuais---------------------//////-------*/
+.main{
+    position: relative;
+    top:35px;
+    padding:0px;
+    margin: 0px;
+}
+.textong h2{
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    position: relative;
+    top:15px;
+    width:100%;
+    max-width: 520px;
+}
+
+.logo-ong{
+    width:100%;
+    max-width: 180px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.ong-header{
+    width:100%;
+    max-width: 99%;
+}
+
+.description-ong{
+    width: 100%;
+}
+
+.description-ong h1{
+    width: 100%;
+    font-size: 20px;
+}
+
+.description-ong p{
+    font-size: 12px;
+}
+
+.ong-description{
+    width: 100%;
+    max-width:99%;
+}
+
+/*-----------------------------------PAGINA DE LOGIN---------------------------------*/
+
+.boxlogin{
+    position: relative;
+    left:0px;
+    transform: translateX(4%); 
+    width:100%;
+    max-width: 90%;
+    padding: 0px;
+    margin:0px;
+}
+
+/*-----------------------------------PAGINA DE CADASTRO----------------------------------------*/
+
+.cadastro3d {
+    position: absolute;
+    top: 55%;
+    width:100%;
+    max-width: 350px;
+}
+
+.formstyle {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: #000000;
+    background-color:#cfedd6;
+    border-radius: 5px;
+}
+
+   /*----------------------------------PAGINA PROFILE----------------------------*/
+
+.containerprofile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    max-height: 360px;
+}
+
+.userdate{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 630%);
+}
+
+.infoaccount{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 45%);
+    width: 100%;
+    max-width:500px;
+    height:1150px;
+    
+}
+
+.accnome{
+    position: relative;
+    left: 10%;
+}
+
+.accemail{
+    position: absolute;
+    left: 10%;
+}
+
+.acctel{
+    position: absolute;
+    left: 10%;
+}
+
+.barra {
+    width:100%;
+    max-width: 600px;
+}
+
+.doacaohistorico {
+    position: relative;
+    top:360px;
+    left: 3%;
+    width:350px ;
+    text-align: center;
+}
+
+.doacaopassada h5{
+    padding:0px;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.doacaopassada2 {
+    position:relative;
+    top:240px;
+    width:80%;
+    max-width:80%;
+    height:40%;
+    
+}
+.doacaopassada2 img{
+    width:100%;
+    max-width:100%;
+    height:100%;
+}
+
+.doacaopassada2 h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:10px;
+    margin-top:0px;
+    
+}
+
+#rodapeuser{
+    position: absolute;
+    top: 2000px;
+}
+    /***---------------------------------ONG PROFILE PAGE POST----------------------------------***/
+    .ongpostmainsec{
+        position: absolute;
+        top: -50px;
+        transform: translate(0%, -10%);
+        width:100%;
+        height: 800px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+.ongpostmain{
+    position: relative;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+    max-width: 500px;
+    height: 720px;
+    background-color: white;
+    border: 2px solid  rgb(38, 122, 80);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: #317634;
+}
+.ongpostprofilepic{
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+
+    border: 1px solid #095a0d;
+    border-radius: 10px;
+    box-shadow: 5px solid black;
+}
+
+#ongposttext{
+    width:350px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-color: #4caf50;
+}
+
+#ongpostendereco{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+#ongpostnumero{
+    margin: 10px;
+    padding-top: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#cfedd6;
+}
+
+   /***------------------------------ONG ADS----------------------------------***/
+.anunciosmain {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 800px;
+    max-height: auto;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(34, 33, 33, 0.508);
+    border: 1px solid rgba(42, 41, 41, 0.397);
+    border-radius: 20px;
+    background-color: #edf4f2;
+}
+
+.anuncio {
+    position: relative;
+    height: auto;
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid;
+    border-color: #5b6f5f;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+}
+    /*-----------------------------------PAGINA DE FORMULARIO--------------------------------------------*/
+
+    .doacao-container{
+        position: relative;
+        top:20px;
+        width:100%;
+        max-width:80%;
+        left:0px;
+        transform: translateX(0%);
+    }
+
+    .doacao-submit {
+        position:relative;
+        left:50%;
+    }
+
+    .doacao-back{
+        top:508px;
+        left:20%;
+        height:38px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    /*--------------------------------------------------PAGINA DE DOACAO FINALIZADA-----------------------------------------*/
+
+    .btn-success {
+        width:50%;
+        max-width: 100px;
+        height:100px;
+        margin:5px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/*-----------/////////---------ULTIMO MEDIA QUERY --------------///////////////-------*/
+
+@media only screen and (min-width:0px) and (max-width:300px){
+    header {
+       width:100%;
+       height:266px;
+   }
+   nav {
+       flex-direction: column;
+       justify-content: space-around;
+       position: relative;
+       top: 0;
+       left: 0;
+   }
+
+   .nav-list { 
+       width:100%;
+       flex-direction: column;
+       padding: 0px;
+   }
+
+   /*-----------------------------------PAGINA INICIAL---------------------------------*/
+
+   .conteudobannerdiv p{
+    font-size: 12px;
+    }
+
+    .bannerdiv p {
+    max-width: 200px;
+    font-size: 15px;
+    }
+
+   .ad {
+       flex-direction: column;
+   }
+
+   /*--------------------------------------/////////FOOTER/////------------*/
+   .rodape {
+       width:100%;
+       
+   }
+
+   .rodapebox {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+  
+
+   /*------------------------- QUEM SOMOS --------------------------*/
+
+
+.caixasobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixasobre div{
+    width: 100%;
+}
+
+/*----------------------------------PAGINA PROFILE----------------------------*/
+
+.containerprofile {
+    position: relative;
+    top:25px;
+    left:35px;
+    width:100%;
+    max-width: 70%;
+    height:100%;
+    
+}
+
+.userdate{
+    position: relative;
+    left:50px;
+    top:40px;
+    width:100%;
+    max-width:60%;
+}
+
+.infoaccount{
+    position: relative;
+    top:70px;
+    left:15px;
+    width: 100%;
+    max-width:90%;
+    height:800px;
+}
+
+.accnome{
+    width:80%;
+}
+
+.accemail{
+    width:80%;
+}
+
+.accemail h4{
+    font-size: 11.7px;
+}
+
+.acctel{
+    width:80%;
+}
+
+.barra {
+    width:100%;
+    max-width: 500px;
+}
+
+
+.doacaohistorico {
+    position: relative;
+    width:100%;
+    max-width: 80%;
+    top:250px;
+    left:25px;
+    text-align: center;
+}
+
+.doacaopassada {
+    position:relative;
+    top:5px;
+    width:80%;
+    max-width:60%;
+    height:30%;
+    
+}
+.doacaopassada img{
+    width:100%;
+    max-width:100%;
+    height:70%;
+}
+
+.doacaopassada h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:10px;
+    margin-top:0px;
+    
+}
+
+.doacaopassada2 {
+    position:relative;
+    top:5px;
+    width:80%;
+    max-width:60%;
+    height:30%;
+    
+}
+.doacaopassada2 img{
+    width:100%;
+    max-width:100%;
+    height:65%;
+}
+
+.doacaopassada2 h5{
+    font-size: 13px;
+    text-align: baseline;
+    margin-left:10px;
+    margin-top:0px;
+    
+}
+
+.profile {
+    position: relative; 
+    top: 200px;
+}
+
+/*-----------------------------------PAGINA DE LOGIN---------------------------------*/
+
+.boxlogin{
+    position: relative;
+    left:0px;
+    transform: translateX(4%); 
+    width:100%;
+    max-width: 90%;
+    padding: 0px;
+    margin:0px;
+}
+
+/*-----------------------------------PAGINA DE CADASTRO----------------------------------------*/
+
+.cadastro3d {
+    position: relative;
+    top:50px;
+    width:100%;
+    max-width:85%;
+}
+}
