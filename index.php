@@ -14,7 +14,6 @@
         </a>
         <ul class="nav-list">
             <li><a href="quemsomos.html">Quem Somos</a></li>
-            <li><a href="ongs.php">Ongs</a></li>
             <li><a href="faq.html">Faq</a></li>
             <li><a href="login.php">Login</a></li>
         </ul>

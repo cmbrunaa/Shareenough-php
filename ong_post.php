@@ -111,7 +111,7 @@ $conn = null; // Fecha a conexão com o banco de dados
                 
 
                 <a  href="perfil-ong.php"><button class="btnongdoavoltar">Voltar para meu perfil</button></a>
-                <a  href="pagina-ong.html"><button class="btnongdoavoltar">Ir para página inicial</button></a>
+                <a  href="pagina-ong.php"><button class="btnongdoavoltar">Ir para página inicial</button></a>
         </div>
     </section>
 </body>

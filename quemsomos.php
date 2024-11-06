@@ -1,7 +1,7 @@
 <?php
     session_start();
 if(!isset($_SESSION['login'])){
-    header('location:login-usuario.php');
+    header('location:login.php');
 }
 
 ?>
@@ -23,7 +23,6 @@ if(!isset($_SESSION['login'])){
             </a>
             <ul class="nav-list">
                 <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="ongs.html">Ongs</a></li>
                 <li><a href="faq.html">Faq</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>

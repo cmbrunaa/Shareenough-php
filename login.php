@@ -84,7 +84,6 @@ if (isset($_POST['logar'])) {
         <ul class="nav-list">
             <li><a href="index.php">Página inicial</a></li> 
             <li><a href="quemsomos.html">Quem Somos</a></li>
-            <li><a href="ongs.html">Ongs</a></li>
             <li><a href="faq.html">Faq</a></li>
         </ul>
     </nav>

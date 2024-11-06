@@ -25,7 +25,6 @@ if(!isset($_SESSION['login'])){
             <ul class="nav-list">
                 <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="quemsomos.html">Quem Somos</a></li>
-                <li><a href="ongs.html">Ongs</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
         </nav>

@@ -64,6 +64,7 @@ $nome = $_SESSION['nome'];
             </a>
             <ul class="nav-list">
                 <li><a href="anuncios-adm.php">Excluir Anúncios</a></li>
+                <li><a href="excluir_usuarios.php">Excluir Usuários</a></li>
                 <li><a href="logout.php">Sair</a></li>
             </ul>
         </nav>
@@ -75,7 +76,7 @@ $nome = $_SESSION['nome'];
             <div class="adm-welcome mx-auto mt-5 p-4 col-md-8">
                 <h1>Olá, Admin <?php echo htmlspecialchars($nome); ?>!</h1> <!-- Saudação personalizada -->
                 <p>Bem-vindo(a) à área de administração.</p>
-                <p>Aqui você pode excluir anúncios indesejáveis e alterar dados! Navegue pelo menu para ter acesso às páginas de alterações.</p>
+                <p>Aqui você pode excluir anúncios indesejáveis, alterar dados e excluir usuários! Navegue pelo menu para ter acesso às páginas de alterações.</p>
                 
                 <!-- Botão para excluir anúncios -->
                 <a href="anuncios-adm.php" class="btn btn-excluir-anuncios">Excluir Anúncios</a>
