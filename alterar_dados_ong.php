@@ -75,7 +75,6 @@ if ($ong === false) {
         </a>
         <ul class="nav-list">
             <li><a href="quemsomos.php">Quem Somos</a></li>
-            <li><a href="ongs.html">Ongs</a></li>
             <li><a href="faq.php">Faq</a></li>
             <li><a href="anuncios-ong.php">Anúncios</a></li>
             <li><a href="ong_post.php">Minhas publicações</a></li>

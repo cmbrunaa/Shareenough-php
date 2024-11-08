@@ -15,7 +15,7 @@
         </a>
             <ul class="nav-list">
             <li><a href="pagina-admin.php">Página inicial</a></li>
-            <li><a href="logout.php">Sair</a></li>
+            <li><a class="logout-user" href="logout.php">Sair</a></li>
             </ul>
         </nav>
         </header>

@@ -2066,6 +2066,11 @@ nav ul li a:hover {
     box-sizing: border-box;
 }
 
+.imgprofile{
+    object-fit: cover;
+    overflow: hidden;
+}
+
 .infoaccount {
     position: relative;
     top: -180px;
@@ -2582,6 +2587,67 @@ label {
     box-shadow: 5px 5px black;
 }
 
+/*---------------------  PAGINA ADM  -----------------------*/
+
+.adm-welcome{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid rgba(5, 57, 11, 0.774);
+    box-shadow: 12px 12px rgba(54, 52, 52, 0.523);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    color: #209926;
+    text-align: center;
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pdois{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+.btn-exc-adm {
+    border: none;
+    background-color: #0fa416;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-exc-adm:hover{
+    opacity: 0.8;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logout-user{
+    background-color: none;
+
+}
+
+.logout-user:hover {
+    opacity: 0.8;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+
+
 /*---------------------  GRANDE MEDIA QUERY EXTRA-----------------------*/
 @media only screen and (min-width:1201px) and (max-width:2000px) {
 .ongpostmain{
@@ -2675,6 +2741,24 @@ label {
     box-sizing: border-box;
 }
 
+/*-------------------------------------------PAGINA DE excluir ADM-------------------------------*/
+
+#header-exc{
+    height: 50px;
+}
+
+#admexcmain{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    align-items: center;
+    text-align: center;
+}
+#admexcmain a{
+    border-color: none;
+
+}
 }
 
 /*---------------------MEDIA QUERY EXTRA-----------------------*/
@@ -2751,7 +2835,7 @@ label {
         }
 
        
-        /*********PAGINA DE CADASTRO------------------------------------------******************/
+      
 
 
       /***---------------------------------ONG PROFILE ---------------------------PAGE***/
@@ -2970,6 +3054,25 @@ label {
     margin-bottom: 0px;
 }
 
+/*-------------------------------------------PAGINA DE excluir ADM-------------------------------*/
+
+#header-exc{
+    height: 50px;
+}
+
+#admexcmain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    align-items: center;
+    text-align: center;
+}
+#admexcmain a{
+    border-color: none;
+
+}
+
 }
 
 /*------------------------------------------SEGUNDO MEDIA QUERY ---------------------------------------------*/
@@ -3125,6 +3228,24 @@ label {
     text-align: baseline;
     margin-left:30px;
     margin-top:10px;
+}
+/*-------------------------------------------PAGINA DE excluir ADM-------------------------------*/
+
+#header-exc{
+    height: 50px;
+}
+
+#admexcmain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    align-items: center;
+    text-align: center;
+}
+#admexcmain a{
+    border-color: none;
+
 }
 
 }
@@ -3509,6 +3630,27 @@ label {
     align-items: center;
     text-align: center;
     margin-bottom: 0px;
+}
+/*-------------------------------------------PAGINA DE excluir ADM-------------------------------*/
+
+#header-exc{
+    height: 50px;
+}
+
+#admexcmain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    align-items: center;
+    text-align: center;
+}
+#admexcmain a{
+    border-color: none;
+}
+
+.ong-exc{
+    width: 100%;
 }
 
 }
@@ -4390,6 +4532,53 @@ label {
     top:75px;
 }
 
+/*---------------------  PAGINA ADM  -----------------------*/
+
+
+#header-adm{
+    height: 200px;
+}
+
+
+
+.adm-welcome{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -18.5%);
+    width: 100%;
+    
+    height: auto;
+
+}
+
+.adm-welcome h1{
+    font-size: 25pt;
+}
+
+#pdois{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+#p-um{
+    font-size: 20pt;
+}
+
+.btn-exc-adm {
+    border: none;
+    background-color: #0fa416;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding-left: 20px;
+    margin-bottom: 2px;
+}
+
 }
 
 
@@ -4584,5 +4773,52 @@ label {
     top:50px;
     width:100%;
     max-width:85%;
+}
+
+/*---------------------  PAGINA ADM  -----------------------*/
+
+
+#header-adm{
+    height: 200px;
+}
+
+
+
+.adm-welcome{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -12%);
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
+}
+
+.adm-welcome h1{
+    font-size: 25pt;
+}
+
+#pdois{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+#p-um{
+    font-size: 20pt;
+}
+
+.btn-exc-adm {
+    border: none;
+    background-color: #0fa416;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding-left: 20px;
+    margin-bottom: 2px;
 }
 }

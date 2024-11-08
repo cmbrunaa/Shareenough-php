@@ -109,7 +109,6 @@ if ($usuario === false) {
         <ul class="nav-list">
             <li><a href="pagina-usuario.php">Página Inicial</a></li>
             <li><a href="quemsomos.php">Quem Somos</a></li>
-            <li><a href="ongs.php">Ongs</a></li>
             <li><a href="anuncios.php">Anúncios</a></li>
             <li><a class="logout" href="logout.php">Sair</a></li>
         </ul>

@@ -107,7 +107,6 @@ if(isset($_POST['cadastrar'])){
             </a>
             <ul class="nav-list">
                 <li><a href="quemsomos.html">Quem Somos</a></li>
-                <li><a href="ongs.html">Ongs</a></li>
                 <li><a href="faq.html">Faq</a></li>
                 <li><a href="index.html">Página inicial</a></li>
             </ul>
